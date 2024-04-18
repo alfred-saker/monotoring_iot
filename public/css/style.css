@@ -1,0 +1,72 @@
+body {
+  font-family: 'Montserra'; 
+}
+nav{
+  background-color: #1F1C2C;
+  padding: 1em;
+}
+.main{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+.main div a{
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+.form_module{
+  width: 100%;
+  padding: 1em;
+  margin: auto;
+}
+.norm-stree{
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+.norm-stree button{
+  float:right;
+}
+.form_detail{
+  width: 50%;
+  padding: 1em;
+  margin: 0 auto;
+}
+.container-chart canvas{
+  display: flex;
+  padding: 1em;
+  border: 2px solid #1F1C2C;
+}
+.main-icone{
+  display: block;
+  max-width:40%;
+  text-align: center;
+  line-height: 3;
+}
+
+.item{
+  width: 300px;
+  margin-top: 1em;
+  border-bottom: 2px solid #1F1C2C;
+}
+.item img{
+  width: 30%;
+  color: #1F1C2C;
+}
+.container-chart{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.form-register{
+  width: 50%;
+  margin: 3em auto;
+  padding: 2em;
+}
